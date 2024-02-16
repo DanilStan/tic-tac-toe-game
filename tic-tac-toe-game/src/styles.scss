@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+@import "modern-normalize/modern-normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700;800;900&display=swap");
+
+body {
+  position: relative;
+
+  font-family: "Inter", sans-serif;
+  background-color: #ece5d5;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+.overflow {
+  overflow: hidden;
+}
