@@ -75,28 +75,49 @@
 //   }
 // }
 
-// .section-hello__title {
-//   margin: 0;
-//   max-width: 525px;
-//   height: 100%;
+.section-hello {
+  position: static;
+  overflow: hidden;
+  padding: 60px 172px 70px 172px;
 
-//   font-size: 200px;
-//   font-weight: 900;
-//   line-height: 192px;
+  border: 4px #e9b98b dashed;
+}
 
-//   color: #e9b98b;
-//   text-shadow: 6px 9px 16px rgba(0, 0, 0, 0.4);
+.section-hello__title {
+  margin: 0;
+  max-width: 525px;
+  height: 100%;
 
-//   animation: myAnim 4s ease 0s infinite normal forwards;
-// }
+  font-size: 200px;
+  font-weight: 900;
+  line-height: 192px;
 
-// .section-hello {
-//   position: static;
-//   overflow: hidden;
-//   // padding: 60px 172px 70px 172px;
+  color: #e9b98b;
+  text-shadow: 6px 9px 16px rgba(0, 0, 0, 0.4);
 
-//   border: 4px #e9b98b dashed;
-// }
+  // animation: myAnim 4s ease 0s infinite normal forwards; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+}
+
+.section-hello__start {
+  margin: 55px 0 0 120px;
+  padding: 8px 24px;
+
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ece5d5;
+  background-color: #4f5d64;
+  border: none;
+  border-radius: 77px;
+
+  transition: all 0.2s linear;
+
+  &:hover {
+    scale: 1.2;
+    color: #4f5d64;
+    background-color: #e9b98b;
+  }
+}
 
 // .elips {
 //   position: absolute;
@@ -137,27 +158,6 @@
 //   background-repeat: no-repeat;
 
 //   animation: myAnim2 8s ease 0s infinite normal forwards;
-// }
-
-// .section-hello__start {
-//   margin: 55px 0 0 120px;
-//   padding: 8px 24px;
-
-//   letter-spacing: 2px;
-//   font-size: 20px;
-//   font-weight: 700;
-//   color: #ece5d5;
-//   background-color: #4f5d64;
-//   border: none;
-//   border-radius: 77px;
-
-//   transition: all 0.2s linear;
-
-//   &:hover {
-//     scale: 1.2;
-//     color: #4f5d64;
-//     background-color: #e9b98b;
-//   }
 // }
 
 // .star {
@@ -228,14 +228,6 @@
 // }
 
 // // Animate page style
-
-// .page-style {
-//   height: 100vh;
-//   background-color: black;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
 
 // .main {
 //   position: absolute;
