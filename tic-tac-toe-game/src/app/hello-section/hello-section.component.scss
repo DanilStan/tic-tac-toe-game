@@ -77,9 +77,11 @@
 
 .section-hello {
   position: static;
-  overflow: hidden;
-  padding: 60px 172px 70px 172px;
+  padding: 60px 100px;
+}
 
+.section-hello__box {
+  padding: 40px 30px;
   border: 4px #e9b98b dashed;
 }
 
@@ -99,7 +101,8 @@
 }
 
 .section-hello__start {
-  margin: 55px 0 0 120px;
+  display: inline-block;
+  margin: 20px 0 0 120px;
   padding: 8px 24px;
 
   letter-spacing: 2px;
@@ -119,14 +122,29 @@
   }
 }
 
-// .elips {
+.section-hello__background-image {
+  position: absolute;
+  top: 0;
+  right: -388px;
+
+  width: 900px;
+  height: 800px;
+
+  background-image: url(../../assets/background-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  // animation: myAnim2 8s ease 0s infinite normal forwards;!!!!!!!!!!!!!!!!!!!!!
+}
+
+// .section-hello__elips {
 //   position: absolute;
 //   width: 42px;
 //   height: 42px;
 
 //   &.elips1 {
-//     top: 42px;
-//     left: 32px;
+//     top: 44px;
+//     left: 77px;
 //   }
 
 //   &.elips2 {
@@ -143,21 +161,6 @@
 //     top: 844px;
 //     right: 40px;
 //   }
-// }
-
-// .background-image {
-//   position: fixed;
-//   top: 25px;
-//   right: -388px;
-
-//   width: 1000px;
-//   height: 950px;
-
-//   background-image: url(../../assets/background-image.png);
-//   background-size: cover;
-//   background-repeat: no-repeat;
-
-//   animation: myAnim2 8s ease 0s infinite normal forwards;
 // }
 
 // .star {
