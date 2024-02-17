@@ -127,8 +127,8 @@
   top: 0;
   right: -388px;
 
-  width: 900px;
-  height: 800px;
+  width: 950px;
+  height: 850px;
 
   background-image: url(../../assets/background-image.png);
   background-size: cover;
@@ -137,98 +137,98 @@
   // animation: myAnim2 8s ease 0s infinite normal forwards;!!!!!!!!!!!!!!!!!!!!!
 }
 
-// .section-hello__elips {
-//   position: absolute;
-//   width: 42px;
-//   height: 42px;
+.section-hello__elips {
+  position: absolute;
+  width: 42px;
+  height: 42px;
 
-//   &.elips1 {
-//     top: 44px;
-//     left: 77px;
-//   }
+  &.elips1 {
+    top: 44px;
+    left: 77px;
+  }
 
-//   &.elips2 {
-//     top: 844px;
-//     left: 32px;
-//   }
+  &.elips2 {
+    top: 768px;
+    left: 77px;
+  }
 
-//   &.elips3 {
-//     top: 42px;
-//     right: 40px;
-//   }
+  &.elips3 {
+    top: 44px;
+    right: 86px;
+  }
 
-//   &.elips4 {
-//     top: 844px;
-//     right: 40px;
-//   }
-// }
+  &.elips4 {
+    top: 768px;
+    right: 86px;
+  }
+}
 
-// .star {
-//   position: absolute;
+.section-hello__star {
+  position: absolute;
 
-//   background-image: url(../../assets/star-background.png);
-//   background-size: cover;
+  background-image: url(../../assets/star-background.png);
+  background-size: cover;
 
-//   &.star1 {
-//     top: 500px;
-//     left: 800px;
+  &.star1 {
+    top: 500px;
+    left: 600px;
 
-//     width: 150px;
-//     height: 150px;
-//     animation: animationStart1 12s ease 0s infinite normal forwards;
-//   }
+    width: 150px;
+    height: 150px;
+    animation: animationStart1 12s ease 0s infinite normal forwards;
+  }
 
-//   &.star2 {
-//     top: 300px;
-//     left: 1000px;
+  &.star2 {
+    top: 300px;
+    left: 700px;
 
-//     width: 100px;
-//     height: 100px;
+    width: 100px;
+    height: 100px;
 
-//     animation: animationStart1 15s ease 1s infinite normal forwards;
-//   }
+    animation: animationStart1 15s ease 1s infinite normal forwards;
+  }
 
-//   &.star3 {
-//     top: 200px;
-//     left: 750px;
+  &.star3 {
+    top: 150px;
+    left: 550px;
 
-//     width: 80px;
-//     height: 80px;
+    width: 80px;
+    height: 80px;
 
-//     animation: animationStart1 18s ease 3s infinite normal forwards;
-//   }
-// }
+    animation: animationStart1 18s ease 3s infinite normal forwards;
+  }
+}
 
-// .planet {
-//   position: absolute;
+.section-hello__planet {
+  position: absolute;
 
-//   background-image: url(../../assets/planet-background.png);
-//   background-size: cover;
+  background-image: url(../../assets/planet-background.png);
+  background-size: cover;
 
-//   &.planet1 {
-//     top: 650px;
-//     left: 1150px;
+  &.planet1 {
+    top: 600px;
+    left: 800px;
 
-//     width: 150px;
-//     height: 150px;
+    width: 150px;
+    height: 150px;
 
-//     animation: animationPlanet1 30s ease 0s infinite normal forwards;
-//   }
+    animation: animationPlanet1 30s ease 0s infinite normal forwards;
+  }
 
-//   &.planet2 {
-//     top: 80px;
-//     left: 1150px;
+  &.planet2 {
+    top: 80px;
+    left: 650px;
 
-//     width: 250px;
-//     height: 250px;
+    width: 250px;
+    height: 250px;
 
-//     animation: animationPlanet2 10s ease 2s infinite normal forwards;
-//   }
-// }
+    animation: animationPlanet2 10s ease 2s infinite normal forwards;
+  }
+}
 
-// .hidden {
-//   display: none;
-// }
+.hidden {
+  display: none;
+}
 
 // // Animate page style
 
